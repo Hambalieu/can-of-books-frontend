@@ -29,6 +29,9 @@ class BestBooks extends React.Component {
     let booksToShow = this.state.books.map((book, idx) =>(
       <p key={idx}>{book.title} is {book.status}</p>
     ))
+
+
+    
     return (
       <>
         <h2>My Essential Lifelong Learning &amp; Formation Shelf</h2>

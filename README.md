@@ -11,17 +11,20 @@ Creating an Online Bookstore Application<br></br>
 - Added an empty dotenv file <br></br>
 
 
+## Card 3 
+- In the `BestBooks` component, we made a `GET` request to our server `/books` route, in the `componentDidMount` function.<br></br>
 
+- We then Stored the book data returned from the server in the application `state`.<br></br>
 
 Name of feature: _____________Set up our Repositories___________________
 
-Estimate of time needed to complete: ___1__
+Estimate of time needed to complete: ___3_
 
-Start time: ____3:30_
+Start time: ____9:00_
 
-Finish time: ____4;10_
+Finish time: _____
 
-Actual time needed to complete: ___40 mins__
+Actual time needed to complete: _____
 
 
 [TrelloBoard](https://trello.com/c/P4QfpppB/8-3-book-component-as-a-user-id-like-to-see-my-list-of-books-so-that-i-can-track-whats-impacted-me-and-whats-recommended-to-me)
