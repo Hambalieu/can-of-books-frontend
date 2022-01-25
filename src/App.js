@@ -36,9 +36,12 @@ class App extends React.Component {
           <Header user={this.state.user} onLogout={this.logoutHandler} />
           <Switch>
             <Route exact path="/">
-              {/* TODO: if the user is logged in, render the `BestBooks` component, if they are not, render the `Login` component */}
+              <Home/>
             </Route>
-            {/* TODO: add a route with a path of '/profile' that renders a `Profile` component */}
+            <Route exact path="/profile">
+              <Profile data={this.state.user}/>
+            </Route>
+            
           </Switch>
           <Footer />
         </Router>

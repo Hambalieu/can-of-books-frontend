@@ -1,5 +1,8 @@
 import axios from 'axios';
 import React from 'react';
+// import Carousel from 'react-bootstrap/Carousel';
+import CarouselItem from 'react-bootstrap/CarouselItem'
+
 
 class BestBooks extends React.Component {
   constructor(props) {
@@ -26,21 +29,27 @@ class BestBooks extends React.Component {
   render() {
 
     /* TODO: render user's books in a Carousel */
-    let booksToShow = this.state.books.map((book, idx) =>(
-      <p key={idx}>{book.title} is {book.status}</p>
+    let booksToShow = this.state.books.map((book, idx) => (
+      <CarouselItem
+        key={idx}>
+        <h2>{book.title}</h2>
+        <p>{book.status}</p>
+      </CarouselItem>
     ))
 
 
-    
+
     return (
       <>
         <h2>My Essential Lifelong Learning &amp; Formation Shelf</h2>
 
-        {this.state.books.length > 0 ? (
-          <p>Book Carousel coming soon</p>
-        ) : (
-          <h3>No Books Found :(</h3>
-        )}
+        {this.state.books.length > 0 ? 
+        <>
+          { booksToShow }
+        </>
+          : 
+            <h3>No Books Found :(</h3>
+          }
       </>
     )
   }
