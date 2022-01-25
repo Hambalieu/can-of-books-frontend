@@ -1,6 +1,3 @@
-
-
-
 # Can Of Books
 
 **Author**: Hambalieu Jallow, Kevin LaMarca
@@ -26,3 +23,5 @@ Finish time: ____4;10_
 
 Actual time needed to complete: ___40 mins__
 
+
+[TrelloBoard](https://trello.com/c/P4QfpppB/8-3-book-component-as-a-user-id-like-to-see-my-list-of-books-so-that-i-can-track-whats-impacted-me-and-whats-recommended-to-me)
