@@ -1,11 +1,28 @@
-# Start your own "Can of Books" App
 
-This repository has starter code to begin work on creating your own online bookshelf.
 
-## What can books do?
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+# Can Of Books
 
-## Use this template
+**Author**: Hambalieu Jallow, Kevin LaMarca
+**Version**: 1.0.0 
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+## Overview
+Creating an Online Bookstore Application<br></br>
+
+## Getting Started
+- Configured a new repository for our Front end Application
+- Added an empty dotenv file <br></br>
+
+
+
+
+Name of feature: _____________Set up our Repositories___________________
+
+Estimate of time needed to complete: ___1__
+
+Start time: ____3:30_
+
+Finish time: ____4;10_
+
+Actual time needed to complete: ___40 mins__
+
