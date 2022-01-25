@@ -12,19 +12,22 @@ Creating an Online Bookstore Application<br></br>
 
 
 ## Card 3 
-- In the `BestBooks` component, we made a `GET` request to our server `/books` route, in the `componentDidMount` function.<br></br>
+- - In the `BestBooks` component, make a `GET` request to your server `/books` route, in the `componentDidMount` function.<br></br>
+- Store the book data returned from the server in the application `state`.<br></br>
+- Use conditional logic to only render the books when there are more than 0 books stored in the application state.<br></br>
+- When the server does return some books, use a Bootstrap carousel to render all the books returned.<br></br>
+- When the server returns no books then render a message that the book collection is empty.<br></br>
+- Use React Router to add ability for user to navigate between Profile and Home "pages".<br></br>
 
-- We then Stored the book data returned from the server in the application `state`.<br></br>
 
-Name of feature: _____________Set up our Repositories___________________
+Name of feature: ________________________________
 
 Estimate of time needed to complete: ___3_
 
-Start time: ____9:00_
+Start time: ____8:40_
 
-Finish time: _____
-
-Actual time needed to complete: _____
+Finish time: ___WIP
+Actual time needed to complete: _____2
 
 
 [TrelloBoard](https://trello.com/c/P4QfpppB/8-3-book-component-as-a-user-id-like-to-see-my-list-of-books-so-that-i-can-track-whats-impacted-me-and-whats-recommended-to-me)
