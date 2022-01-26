@@ -1,3 +1,4 @@
+'use strict';
 import axios from 'axios';
 import React from 'react';
 // import Carousel from 'react-bootstrap/Carousel';
@@ -29,7 +30,6 @@ class BestBooks extends React.Component {
   }
 
   render() {
-    console.log(this.state);
     /* TODO: render user's books in a Carousel */
     let booksToShow = this.state.books.map((book, idx) => (
       <CarouselItem
