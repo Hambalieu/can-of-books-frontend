@@ -3,12 +3,12 @@ import { Component } from "react";
 class LoginForm extends Component {
 
   handleSubmit = (e) => {
-    e.preventdefault();
+    e.preventDefault();
     let user = {
       username:e.target.username.value,
       email:e.target.email.value
     }
-
+    console.log(user);
     this.props.onLogin(user)
   }
 
