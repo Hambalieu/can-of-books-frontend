@@ -38,3 +38,26 @@ Actual time needed to complete: _____2
 
 
 [TeamRule](https://docs.google.com/document/d/1RVJ2PoBzTdljn1Gm_S-nQU3y0B3QqDhNXiDn-QOIc2g/edit#heading=h.mx1b8tz44qrp)
+
+
+## 1/25/22 lab 12
+Name of feature: Get data from Mongo via server and save data to local state
+
+Estimate of time needed to complete: 20 mins
+
+Start time: 7:15
+
+Finish time: 7:30
+
+Actual time needed to complete: 15 mins
+
+Name of feature: Render header with conditional logout or profile component
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 7:30
+
+Finish time: 8:30
+
+Actual time needed to complete: 60 mins
+
