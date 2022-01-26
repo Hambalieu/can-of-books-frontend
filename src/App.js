@@ -7,6 +7,9 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import BestBooks from './BestBooks';
+import Profile from './Profile';
+import Login from './Login';
 
 class App extends React.Component {
 
@@ -35,11 +38,11 @@ class App extends React.Component {
         <Router>
           <Header user={this.state.user} onLogout={this.logoutHandler} />
           <Switch>
-            <Route exact path="/">
-              <Home/>
+            <Route >
+              {this.state.user ? <BestBooks/> :<Login onLogin={this.LoginHandler}/>}
             </Route>
-            <Route exact path="/profile">
-              <Profile data={this.state.user}/>
+            <Route exact path="/profile" >
+              <Profile user={this.state.user}  />
             </Route>
             
           </Switch>
