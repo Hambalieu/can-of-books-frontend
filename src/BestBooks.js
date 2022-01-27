@@ -44,8 +44,8 @@ class BestBooks extends React.Component {
 
   deleteHandler = async (id) => {
     // let url = 'http://localhost:3002/books'
-    let deletedBook = await axios.delete(`${SERVER}/books/${id}`);
-    deletedBook = deletedBook.data;
+    await axios.delete(`${SERVER}/books/${id}`);
+    
     let updatedBooks = this.state.books.filter(book => book._id !== id);
     this.setState({
       books: updatedBooks
@@ -91,9 +91,7 @@ class BestBooks extends React.Component {
     })
   };
 
-  // getIdToDelete = (id) => {
-  //   this.deleteHandler(id);
-  // };
+
 
 
   render() {
