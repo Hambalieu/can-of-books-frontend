@@ -10,9 +10,6 @@ class BookFormModal extends React.Component {
 
     return (
       <>
-        <Button variant="primary" onClick={this.props.handleShowModal}>
-          Launch demo modal
-        </Button>
         <Modal show={this.props.show} onHide={this.props.handleCloseModal}>
           <Modal.Header closeButton>
             <Modal.Title>Add Book Form</Modal.Title>
