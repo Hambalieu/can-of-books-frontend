@@ -1,4 +1,4 @@
-'use strict';
+'use Strict';
 import React from 'react';
 
 class AddBook extends React.Component {

@@ -1,9 +1,9 @@
-'use strict';
+'use Strict';
 import React from 'react';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
-// import Form from 'react-bootstrap/Form';
+
 
 class BookFormModal extends React.Component {
   render() {
@@ -41,14 +41,7 @@ class BookFormModal extends React.Component {
               </Button>
             </Form>
           </Modal.Body>
-          <Modal.Footer>
-          <Button variant="secondary" onClick={this.props.handleCloseModal}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={this.props.handleCloseModal}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+         
         </Modal>
       </>
     )
