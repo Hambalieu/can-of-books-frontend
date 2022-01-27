@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import AddBook from './AddBook';
 import BookFormModal from './BookFormModal';
 
-let url = process.env.REACT_APP_SERVER;
+// let url = process.env.REACT_APP_SERVER;
 
 class BestBooks extends React.Component {
   constructor(props) {
@@ -22,6 +22,7 @@ class BestBooks extends React.Component {
   /* Done: Make a GET request to your API to fetch books for the logged in user  */
 
   getHandler = async () => {
+    let url = 'http://localhost:3002';
     let bookResult = await axios.get(url + '/books');
     console.log(bookResult.data);
 
@@ -32,7 +33,7 @@ class BestBooks extends React.Component {
 
 
   postHandler = async (newBook) => {
-    let url = `https://localhost:3002/books`;
+    let url = `http://localhost:3002/books`;
     let bookResult = await axios.post(url, newBook);
     console.log(bookResult);
     this.setState({
