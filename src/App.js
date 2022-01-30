@@ -50,7 +50,6 @@ class App extends React.Component {
           <Switch>
             <Route >
               {this.state.user ? <BestBooks/> : <Login onLogin={this.loginHandler}/>}
-          
             
             </Route>
             <Route exact path="/profile" >
