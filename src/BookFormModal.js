@@ -12,10 +12,10 @@ class BookFormModal extends React.Component {
       <>
         <Modal show={this.props.show} onHide={this.props.handleCloseModal}>
           <Modal.Header closeButton>
-            <Modal.Title>Add Book Form</Modal.Title>
+            <Modal.Title>{this.props.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Form onSubmit={this.props.handleSubmitNewBook}>
+            <Form onSubmit={(e) => this.props.handleSubmit(e, this.props.books)}>
               <Form.Group className="mb-3" controlId="title">
                 <Form.Label>Title</Form.Label>
                 <Form.Control type="text" placeholder="Enter title" />
